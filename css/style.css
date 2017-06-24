@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Cocogoose'; /*a name to be used later*/
+    src: url('/fonts/Cocogoose.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'imagine_font'; /*a name to be used later*/
+    src: url('/fonts/imagine_font.ttf'); /*URL to font*/
+}
+
+body {
+  width: 242px;
+  height: 194px;
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.header {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 80px;
+  font-family: 'Cocogoose';
+}
+
+.header p {
+  margin-top: -28px;
+  margin-left: 18px;
+  font-size: 38px;
+  font-family: 'imagine_font';
+  color: #ffcc02;
+}
+
+.content {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content a {
+  width: 45%;
+  color: #333;
+  height: 40px;
+  display: flex;
+  font-weight: bold;
+  border: #e8b900;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #ffcc02;
+}
+
+.content a:hover {
+  text-decoration: none;
+  background-color: #b59000;
+}
