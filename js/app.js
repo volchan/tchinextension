@@ -57,6 +57,6 @@ chrome.notifications.onClicked.addListener(function(){
   chrome.tabs.create({ url:"https://www.twitch.tv/" + channel});
 });
 
-setInterval(callback, 1000);
+setInterval(callback, 30000);
 toogleStream(false);
 callback();

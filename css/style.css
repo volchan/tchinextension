@@ -23,6 +23,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.header .live {
+  position: absolute;
+  top: 5px;
+  right: -51px;
+  text-align: center;
+  font-size: large;
+  font-weight: 800;
+  color: #333;
+  transform: rotate(45deg);
+  background-color: #2ecc71;
+  border: 2px dashed #1f914f;
+  width: 127px;
 }
 
 .header h1 {
